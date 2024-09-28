@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朋克赛博时间记录器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="time">00:00:00.000</div>
+    <div class="button-container">
+        <button id="recordButton">记录时间</button>
+        <button id="stopButton">停止计时</button>
+    </div>
+    <div id="log"></div>
+    <table id="timeTable">
+        <thead>
+            <tr>
+                <th>记录时间</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <input type="file" id="fileInput" />
+    <table id="excelTable">
+        <thead>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.16.9/xlsx.full.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
